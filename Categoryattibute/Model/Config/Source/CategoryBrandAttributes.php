@@ -1,6 +1,6 @@
 <?php
  
-namespace Ambab\Categoryattibute\Model\Config\Source;
+namespace Suraj\Categoryattibute\Model\Config\Source;
  
 use Magento\Eav\Model\Entity\Attribute\Source\AbstractSource;
  

@@ -1,5 +1,5 @@
 <?php \Magento\Framework\Component\ComponentRegistrar::register(
     \Magento\Framework\Component\ComponentRegistrar::MODULE,
-    'Ambab_Categoryattibute',
+    'Suraj_Categoryattibute',
     __DIR__
 );

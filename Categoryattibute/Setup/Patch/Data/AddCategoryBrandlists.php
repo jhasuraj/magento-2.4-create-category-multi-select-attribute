@@ -1,6 +1,6 @@
 <?php 
 
-namespace Ambab\Categoryattibute\Setup\Patch\Data;
+namespace Suraj\Categoryattibute\Setup\Patch\Data;
 
 use Magento\Catalog\Model\Category;
 use Magento\Catalog\Setup\CategorySetupFactory;
@@ -64,7 +64,7 @@ class AddCategoryBrandlists implements DataPatchInterface
             'label' => 'Brands',
             'input' => 'multiselect',
             'backend' => "Magento\Eav\Model\Entity\Attribute\Backend\ArrayBackend",
-            'source' => 'Ambab\Categoryattibute\Model\Config\Source\CategoryBrandAttributes',
+            'source' => 'Suraj\Categoryattibute\Model\Config\Source\CategoryBrandAttributes',
             'required' => false,
             'sort_order' => 70,
             'global' => ScopedAttributeInterface::SCOPE_STORE,

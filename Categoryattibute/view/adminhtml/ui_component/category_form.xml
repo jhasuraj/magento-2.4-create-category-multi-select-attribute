@@ -4,7 +4,7 @@
     <fieldset name="content">
         <field name="category_brandlists">
             <argument name="data" xsi:type="array">
-                <item name="options" xsi:type="object">Ambab\Categoryattibute\Model\Config\Source\CategoryBrandAttributes</item>
+                <item name="options" xsi:type="object">Suraj\Categoryattibute\Model\Config\Source\CategoryBrandAttributes</item>
                 <item name="config" xsi:type="array">
                     <item name="sortOrder" xsi:type="number">70</item>
                     <item name="dataType" xsi:type="string">string</item>
